@@ -18,3 +18,11 @@ Websites used:
 AI usage:
 I used ChatGPT to help me brainstorm a project idea, improve my README description, and plan the design of the application. I asked for help choosing an easy but strong project idea, deciding which image effects to include, and understanding how the Flask upload page and OpenCV image processing should work together. I may continue using AI during development for debugging, documentation help, and improving the structure of the code.
 
+## Implementation
+
+I implemented my final project by modifying the class Docker template into a multi-effect image processing web application. The user can upload an image, choose an effect, and view both the original and processed image on the web page. The effects currently included are grayscale, blur, edge detection, and color inversion.
+
+I used Flask to handle the web interface and file upload, and I used OpenCV to process the images. I also created folders for uploaded and processed images so the results could be displayed in the browser. During implementation, I added documentation at the top of the Python file and comments throughout the code to show how the program works.
+
+AI usage during implementation:
+I used ChatGPT during implementation to help me understand how to modify the Flask template, organize the code, add multiple image effects, and document my functions clearly. I also used AI help for debugging issues related to file paths, folder structure, and Python setup.
