@@ -26,3 +26,28 @@ I used Flask to handle the web interface and file upload, and I used OpenCV to p
 
 AI usage during implementation:
 I used ChatGPT during implementation to help me understand how to modify the Flask template, organize the code, add multiple image effects, and document my functions clearly. I also used AI help for debugging issues related to file paths, folder structure, and Python setup.
+
+## Test
+
+I tested the application locally in the browser using Flask. The home page loaded correctly and allowed me to upload an image and select an image processing effect.
+
+### Test Results
+
+- Home page test: The application opened successfully and displayed the upload form.  
+  ![Home Page](media/home.png)
+
+- Grayscale test: The image was converted to black and white correctly.  
+  ![Grayscale](media/grayscale.png)
+
+- Blur test: The image was blurred successfully.  
+  ![Blur](media/blur.png)
+
+- Edge detection test: The edges of the image were detected correctly.  
+  ![Edge](media/edge.png)
+
+- Invert colors test: The colors of the image were inverted correctly.  
+  ![Invert](media/invert.png)
+
+### Summary
+
+All features of the application worked correctly. The user can upload an image, select an effect, and see both the original and processed images on the web page.
